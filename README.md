@@ -63,7 +63,7 @@ $HOME/.bashrc file
 
         $ source /etc/profile
 
- ###### Verify java & hadoop installation using
+ ##### Verify java & hadoop installation using
         $ java -version
         $ echo $HADOOP_PREFIX
         $ cd $HADOOP_PREFIX
