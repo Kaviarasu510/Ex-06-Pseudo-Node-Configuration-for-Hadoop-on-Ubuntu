@@ -36,8 +36,7 @@ Single-Node Configuration
 
         $sudo chmod 777 hadoop-2.5.1
 
-## 4.	Set the hadoop environment variables: Include the following lines in the
-$HOME/.bashrc file
+## 4.	Set the hadoop environment variables: Include the following lines in the $HOME/.bashrc file
 
    ##### #Set Hadoop-related environment variables
   	export HADOOP_HOME=/usr/local/hadoop-2.5.1 
@@ -48,13 +47,13 @@ $HOME/.bashrc file
  
 ## 5.	Set hadoop environment variables: Include the following lines /etc/profile file
 
-   ##### #--insert JAVA_HOME
-  	JAVA_HOME=/usr/local/jdk1.8.0_31 
-   ##### #--insert HADOOP_PREFIX
+##### #--insert JAVA_HOME
+        JAVA_HOME=/usr/local/jdk1.8.0_31 
+##### #--insert HADOOP_PREFIX
         HADOOP_PREFIX=/usr/local/hadoop-2.5.1
-   ##### #--in PATH variable just append at the end of the line 
+##### #--in PATH variable just append at the end of the line 
         PATH=$PATH: $JAVA_HOME/bin:$HADOOP_PREFIX/bin
-   ##### #--Append HADOOP_PREFIX at end of the export statement export 
+##### #--Append HADOOP_PREFIX at end of the export statement export 
         PATH JAVA_HOME HADOOP_PREFIX
 
 ## 6.	Run the.bashrc & profile files from the $ prompt for updating the changes
