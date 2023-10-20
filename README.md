@@ -12,17 +12,25 @@ Single-Node Configuration
 
 1.	Create a dedicated user account for hadoop
 
-2.	Install java1.8 in folder /usr/local
-3.	Install Hadoop
+    $sudo addgroup hadoop
 
-4.	Set the hadoop environment variables: Include the following lines in the
+    $sudo adduser --ingroup hadoop hduser
+
+    $sudo usermod -a -G sudo hduser
+
+    $su - hduser
+  	
+3.	Install java1.8 in folder /usr/local
+4.	Install Hadoop
+
+5.	Set the hadoop environment variables: Include the following lines in the
 $HOME/.bashrc file
 
  
-5.	Set hadoop environment variables: Include the following lines /etc/profile file
+6.	Set hadoop environment variables: Include the following lines /etc/profile file
 
 
-6.	Run the.bashrc & profile files from the $ prompt for updating the changes
+7.	Run the.bashrc & profile files from the $ prompt for updating the changes
 
 
 
