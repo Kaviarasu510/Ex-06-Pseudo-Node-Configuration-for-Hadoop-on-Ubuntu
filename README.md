@@ -38,11 +38,11 @@ Single-Node Configuration
 
 ## 4.	Set the hadoop environment variables: Include the following lines in the $HOME/.bashrc file
 
-   ##### #Set Hadoop-related environment variables
+##### #Set Hadoop-related environment variables
   	export HADOOP_HOME=/usr/local/hadoop-2.5.1 
-   ##### #Set JAVA home directory
+##### #Set JAVA home directory
         export JAVA_HOME=/usr/local/jdk1.8.0_31 
-   ##### #Add Hadoop bin/ directory to PATH
+##### #Add Hadoop bin/ directory to PATH
         export PATH=$PATH:$HADOOP_HOME/bin
  
 ## 5.	Set hadoop environment variables: Include the following lines /etc/profile file
