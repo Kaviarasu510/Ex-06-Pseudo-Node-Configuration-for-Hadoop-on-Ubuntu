@@ -12,13 +12,13 @@ Single-Node Configuration
 
 1.	Create a dedicated user account for hadoop
 
-    $sudo addgroup hadoop
+        $sudo addgroup hadoop
 
-    $sudo adduser --ingroup hadoop hduser
+        $sudo adduser --ingroup hadoop hduser
 
-    $sudo usermod -a -G sudo hduser
+        $sudo usermod -a -G sudo hduser
 
-    $su - hduser
+        $su - hduser
   	
 3.	Install java1.8 in folder /usr/local
 4.	Install Hadoop
