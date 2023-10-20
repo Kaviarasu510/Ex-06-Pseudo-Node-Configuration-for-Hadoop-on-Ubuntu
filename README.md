@@ -186,6 +186,7 @@ or
 View the output files on the distributed file system
 
         $ bin/hdfs dfs -cat /output/*
+        
 
 ## Result:
 Thus, the implementation of Pseudo Node configuration for Hadoop on ubuntu is successfully executed.
